@@ -1,0 +1,29 @@
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #40739e;
+    width: 600px;
+    min-height: 600px;
+}
+
+h1 {
+    margin: 10px;
+    color: #f5f6fa;
+}
+
+input {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}

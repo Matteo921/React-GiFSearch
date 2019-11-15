@@ -1,0 +1,22 @@
+{
+  "name": "react-gifsearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "keywords": [
+    "react-gifsearch"
+  ],
+  "author": "Mateusz",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/standalone": "^7.7.3",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {
+    "node": "^12.13.0"
+  }
+}
