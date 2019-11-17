@@ -1,5 +1,5 @@
 var GIPHY_API_URL = 'https://api.giphy.com';
-var GIPHY_PUB_KEY = 'eo2V1qD98KSx10QPnNDU2NPKxXP7EzP9&q';
+var GIPHY_PUB_KEY = 'eo2V1qD98KSx10QPnNDU2NPKxXP7EzP9';
 
 App = React.createClass({
   getInitialState() {
@@ -9,7 +9,7 @@ App = React.createClass({
         gif: {}
     };
   },
-  
+
   handleSearch: function(searchingText) { 
     this.setState({
       loading: true  
@@ -61,4 +61,4 @@ App = React.createClass({
       </div>
       );
     }
-});
+}); 
